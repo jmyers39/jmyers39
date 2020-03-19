@@ -1,0 +1,22 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Map Viewer</title>
+	<link href='https://online.labstats.com/Content/MapViewer.css' rel='stylesheet'>
+</head>
+<body>
+	<div id='mapTarget'></div>
+
+	<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+	<script src='https://cdn.jsdelivr.net/excanvas/r3/excanvas.compiled.js'></script>
+	<script src='https://online.labstats.com/Scripts/MapViewer.js'></script>
+	<script>
+		$('#mapTarget').LabMap({
+			mapId: 1012,
+			authId: '84addce7-ce7f-4c0f-9286-dfd4dc30b7b8',
+			domain: 'https://online.labstats.com'
+		});
+	</script>
+</body>
+</html>
